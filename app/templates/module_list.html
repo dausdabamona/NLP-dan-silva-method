@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Modul Latihan - NLP Training{% endblock %}
+{% block header_title %}Modul Latihan{% endblock %}
+{% block header_subtitle %}Pilih modul untuk memulai{% endblock %}
+
+{% block content %}
+{% for module in modules %}
+    {% if module.unlocked %}
+    <a href="{{ url_for('modules.module_detail', module_id=module.id) }}" class="module-card card">
+    {% else %}
+    <div class="module-card card locked">
+    {% endif %}
+        <div class="module-row">
+            <div class="module-number">{{ module.order }}</div>
+            <div class="module-info">
+                <div class="card-title">{{ module.title }}</div>
+                <div class="card-subtitle">{{ module.description_short }}</div>
+                <span class="badge badge-{{ module.level }}">{{ module.level }}</span>
+                {% if module.unlocked %}
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: {{ module.progress }}%"></div>
+                </div>
+                <div class="progress-text">{{ module.progress }}%</div>
+                {% else %}
+                <div class="text-small text-muted mt-1">Selesaikan modul sebelumnya untuk membuka</div>
+                {% endif %}
+            </div>
+        </div>
+    {% if module.unlocked %}
+    </a>
+    {% else %}
+    </div>
+    {% endif %}
+{% endfor %}
+{% endblock %}

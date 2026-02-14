@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}{{ module.title }} - NLP Training{% endblock %}
+{% block header_title %}{{ module.title }}{% endblock %}
+{% block header_subtitle %}Modul {{ module.order }} - {{ module.level|capitalize }}{% endblock %}
+
+{% block content %}
+<div class="card">
+    <span class="badge badge-{{ module.level }}">{{ module.level }}</span>
+    <div class="progress-bar mt-1">
+        <div class="progress-fill" style="width: {{ module.progress }}%"></div>
+    </div>
+    <div class="progress-text">Progress: {{ module.progress }}%</div>
+</div>
+
+<!-- Teori -->
+<h2 class="section-header">Teori</h2>
+<div class="theory-section">
+    {% for section in module.get('theory', []) %}
+        <h3>{{ section.title }}</h3>
+        <p>{{ section.content }}</p>
+        {% if not loop.last %}<br>{% endif %}
+    {% endfor %}
+</div>
+
+<!-- Daftar Latihan -->
+<h2 class="section-header">Latihan</h2>
+{% for exercise in module.get('exercises', []) %}
+    <a href="{{ url_for('exercises.exercise', module_id=module.id, exercise_id=exercise.id) }}" class="exercise-list-item">
+        <div class="exercise-status">
+            {{ loop.index }}
+        </div>
+        <div>
+            <div class="card-title">{{ exercise.title }}</div>
+            <div class="card-subtitle">{{ exercise.description_short }}</div>
+        </div>
+    </a>
+{% endfor %}
+
+<div class="mt-2">
+    <a href="{{ url_for('modules.module_list') }}" class="btn btn-secondary">Kembali ke Daftar Modul</a>
+</div>
+{% endblock %}

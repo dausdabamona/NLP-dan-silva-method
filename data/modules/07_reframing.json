@@ -1,0 +1,78 @@
+{
+  "order": 7,
+  "title": "Reframing",
+  "level": "intermediate",
+  "description_short": "Content reframing, context reframing, six-step reframe",
+  "theory": [
+    {
+      "title": "Apa itu Reframing?",
+      "content": "Reframing adalah teknik mengubah 'bingkai' (frame) atau perspektif terhadap suatu pengalaman sehingga maknanya berubah. Saat makna berubah, respons dan perilaku juga berubah. Ada dua jenis dasar: content reframing (mengubah makna) dan context reframing (mengubah konteks di mana perilaku tersebut berguna)."
+    },
+    {
+      "title": "Content vs Context Reframing",
+      "content": "Content Reframing: 'Anak saya keras kepala' bisa di-reframe menjadi 'Anak Anda punya pendirian kuat dan tekad yang luar biasa'. Context Reframing: 'Saya terlalu detail' bisa di-reframe: 'Di bidang apa sifat detail itu sangat berharga? Mungkin sebagai quality control atau peneliti.'"
+    },
+    {
+      "title": "Six-Step Reframe",
+      "content": "Six-Step Reframe adalah teknik yang bekerja dengan bagian bawah sadar yang bertanggung jawab atas perilaku yang tidak diinginkan. Asumsinya: setiap perilaku memiliki niat positif. Teknik ini membantu menemukan cara baru untuk memenuhi niat positif tersebut tanpa perilaku lama."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_07_01",
+      "title": "Latihan Content Reframing",
+      "description_short": "Mengubah makna situasi",
+      "description": "Praktikkan content reframing pada situasi-situasi yang menantang dalam hidup Anda.",
+      "steps": [
+        "Tuliskan 5 situasi yang Anda anggap negatif atau menantang",
+        "Untuk setiap situasi, tanyakan: 'Apa makna lain yang mungkin dari situasi ini?'",
+        "Temukan minimal 3 reframe positif untuk setiap situasi",
+        "Pilih reframe yang paling memberdayakan",
+        "Perhatikan bagaimana perasaan Anda berubah saat mengadopsi reframe baru"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa mudah Anda menemukan reframe positif?"},
+        {"question": "Seberapa signifikan perubahan perasaan Anda?"}
+      ]
+    },
+    {
+      "id": "ex_07_02",
+      "title": "Latihan Context Reframing",
+      "description_short": "Menemukan konteks yang tepat",
+      "description": "Praktikkan context reframing - temukan konteks di mana sifat atau perilaku yang Anda anggap negatif justru menjadi kekuatan.",
+      "steps": [
+        "Tuliskan 3 sifat Anda yang menurut Anda 'negatif'",
+        "Untuk setiap sifat, tanyakan: 'Di konteks apa sifat ini sangat berguna?'",
+        "Temukan minimal 3 konteks di mana sifat tersebut menjadi kekuatan",
+        "Bayangkan diri Anda menggunakan sifat tersebut dengan sengaja di konteks yang tepat",
+        "Tuliskan refleksi: bagaimana pandangan Anda terhadap sifat tersebut berubah?"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa kreatif Anda menemukan konteks baru?"},
+        {"question": "Apakah pandangan Anda terhadap sifat 'negatif' berubah?"}
+      ]
+    },
+    {
+      "id": "ex_07_03",
+      "title": "Six-Step Reframe",
+      "description_short": "Reframe mendalam dengan bawah sadar",
+      "description": "Praktikkan Six-Step Reframe untuk mengubah perilaku yang tidak diinginkan dengan bekerja sama dengan pikiran bawah sadar.",
+      "steps": [
+        "Identifikasi perilaku yang ingin Anda ubah",
+        "Langkah 1: Buat kontak internal dengan bagian yang bertanggung jawab. Tanyakan dalam hati: 'Bagian yang bertanggung jawab atas perilaku ini, maukah berkomunikasi dengan saya?' Perhatikan sinyal apapun (gambar, suara, perasaan)",
+        "Langkah 2: Temukan niat positif. Tanyakan: 'Apa niat positif dari perilaku ini? Apa yang ingin kamu lindungi atau berikan untukku?'",
+        "Langkah 3: Minta bagian kreatif menghasilkan 3 alternatif baru yang memenuhi niat positif yang sama",
+        "Langkah 4: Minta bagian yang bertanggung jawab memilih alternatif terbaik",
+        "Langkah 5: Ecology check - apakah ada bagian lain yang keberatan? Jika ya, negosiasikan",
+        "Langkah 6: Future pace - bayangkan diri Anda di masa depan menggunakan perilaku baru"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa jelas komunikasi internal yang Anda rasakan?"},
+        {"question": "Seberapa yakin Anda bahwa alternatif baru akan berhasil?"}
+      ]
+    }
+  ]
+}

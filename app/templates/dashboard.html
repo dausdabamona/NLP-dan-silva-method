@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}Dashboard Progress - NLP Training{% endblock %}
+{% block header_title %}Dashboard{% endblock %}
+{% block header_subtitle %}Pantau perkembangan Anda{% endblock %}
+
+{% block content %}
+
+<!-- Statistik Umum -->
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-value">{{ stats.total_completed }}</div>
+        <div class="stat-label">Latihan Selesai</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-value">{{ stats.streak }}</div>
+        <div class="stat-label">Hari Berturut</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-value">{{ stats.avg_score }}</div>
+        <div class="stat-label">Rata-rata Skor</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-value">{{ stats.total_journals }}</div>
+        <div class="stat-label">Jurnal Ditulis</div>
+    </div>
+</div>
+
+<!-- Grafik Perkembangan -->
+<h2 class="section-header">Grafik Perkembangan</h2>
+<div class="card">
+    <canvas id="progressChart"></canvas>
+    <p class="text-small text-muted text-center mt-1">Skor assessment dari waktu ke waktu</p>
+</div>
+
+<!-- Progress per Modul -->
+<h2 class="section-header">Progress per Modul</h2>
+{% for mp in module_progress %}
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">{{ mp.title }}</div>
+        <span class="badge badge-{{ mp.level }}">{{ mp.level }}</span>
+    </div>
+    <div class="text-small text-muted">{{ mp.completed }} / {{ mp.total }} latihan selesai</div>
+    <div class="progress-bar">
+        <div class="progress-fill" style="width: {{ mp.progress }}%"></div>
+    </div>
+    <div class="progress-text">{{ mp.progress }}%</div>
+</div>
+{% endfor %}
+
+{% endblock %}

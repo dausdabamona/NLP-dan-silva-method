@@ -1,0 +1,77 @@
+{
+  "order": 1,
+  "title": "Dasar-Dasar NLP",
+  "level": "basic",
+  "description_short": "Presupposisi NLP, model komunikasi, peta vs wilayah",
+  "theory": [
+    {
+      "title": "Apa itu NLP?",
+      "content": "Neuro-Linguistic Programming (NLP) adalah pendekatan untuk memahami bagaimana pikiran (neuro), bahasa (linguistic), dan pola perilaku (programming) saling berinteraksi untuk membentuk pengalaman kita. NLP dikembangkan oleh Richard Bandler dan John Grinder pada tahun 1970-an melalui proses modeling terhadap terapis-terapis hebat seperti Fritz Perls, Virginia Satir, dan Milton Erickson."
+    },
+    {
+      "title": "Presupposisi NLP",
+      "content": "Presupposisi adalah asumsi dasar yang menjadi fondasi NLP: (1) Peta bukan wilayah - persepsi kita tentang realitas bukanlah realitas itu sendiri. (2) Setiap perilaku memiliki niat positif. (3) Tidak ada kegagalan, hanya umpan balik. (4) Orang dengan fleksibilitas terbanyak memiliki pengaruh terbesar. (5) Makna komunikasi adalah respons yang kita dapatkan. (6) Kita sudah memiliki semua sumber daya yang dibutuhkan."
+    },
+    {
+      "title": "Model Komunikasi NLP",
+      "content": "Informasi dari dunia luar masuk melalui panca indera, kemudian diproses melalui tiga filter utama: Deletion (penghapusan), Distortion (distorsi), dan Generalization (generalisasi). Hasil filter ini membentuk 'peta internal' kita yang mempengaruhi state (kondisi emosional) dan perilaku kita."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_01_01",
+      "title": "Eksplorasi Presupposisi",
+      "description_short": "Mendalami presupposisi NLP",
+      "description": "Pilih 3 presupposisi NLP yang paling resonan dengan Anda. Untuk setiap presupposisi, tuliskan satu pengalaman nyata dalam hidup Anda yang mengilustrasikan presupposisi tersebut. Renungkan bagaimana hidup Anda akan berbeda jika Anda menerapkan presupposisi ini setiap hari.",
+      "steps": [
+        "Baca kembali semua presupposisi NLP di bagian teori",
+        "Pilih 3 presupposisi yang paling relevan dengan kehidupan Anda saat ini",
+        "Untuk setiap presupposisi, ingat satu pengalaman nyata yang mengilustrasikannya",
+        "Tuliskan bagaimana presupposisi tersebut mengubah cara Anda memandang pengalaman itu",
+        "Renungkan: bagaimana jika Anda menerapkan presupposisi ini mulai sekarang?"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa baik Anda memahami presupposisi NLP?"},
+        {"question": "Seberapa mudah Anda menemukan contoh nyata dari presupposisi tersebut?"}
+      ]
+    },
+    {
+      "id": "ex_01_02",
+      "title": "Peta vs Wilayah",
+      "description_short": "Memahami bahwa persepsi bukan realitas",
+      "description": "Latihan ini membantu Anda menyadari perbedaan antara 'peta' (persepsi Anda) dan 'wilayah' (realitas sebenarnya). Anda akan mengidentifikasi situasi di mana peta Anda mungkin tidak akurat.",
+      "steps": [
+        "Pikirkan satu situasi yang membuat Anda stres atau tidak nyaman",
+        "Tuliskan persepsi Anda tentang situasi tersebut (ini adalah 'peta' Anda)",
+        "Sekarang, bayangkan 3 orang berbeda melihat situasi yang sama - apa yang mungkin mereka pikirkan?",
+        "Identifikasi filter apa yang mungkin Anda gunakan: penghapusan, distorsi, atau generalisasi?",
+        "Ciptakan 'peta' baru yang lebih akurat dan memberdayakan"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa sadar Anda terhadap filter persepsi Anda sendiri?"},
+        {"question": "Seberapa mudah Anda membuat perspektif alternatif?"}
+      ]
+    },
+    {
+      "id": "ex_01_03",
+      "title": "Jurnal Filter Komunikasi",
+      "description_short": "Mengamati deletion, distortion, dan generalization",
+      "description": "Selama satu hari penuh, amati percakapan Anda dan orang lain. Catat contoh-contoh deletion (informasi yang dihilangkan), distortion (informasi yang diubah/diputarbalikkan), dan generalization (penyamarataan). Ini melatih kesadaran Anda terhadap pola bahasa.",
+      "steps": [
+        "Siapkan catatan kecil atau gunakan HP untuk mencatat",
+        "Selama hari ini, perhatikan percakapan Anda dengan orang lain",
+        "Catat minimal 3 contoh deletion (misalnya: 'Mereka tidak suka saya' - siapa 'mereka'?)",
+        "Catat minimal 3 contoh distortion (misalnya: 'Dia membuat saya marah' - bagaimana tepatnya?)",
+        "Catat minimal 3 contoh generalization (misalnya: 'Selalu begitu' - selalu? Kapan tidak?)",
+        "Di malam hari, review catatan Anda dan refleksikan"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa banyak contoh filter yang berhasil Anda temukan?"},
+        {"question": "Seberapa meningkat kesadaran Anda terhadap pola bahasa?"}
+      ]
+    }
+  ]
+}

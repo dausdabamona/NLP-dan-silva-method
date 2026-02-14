@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+{% block title %}{{ exercise.title }} - NLP Training{% endblock %}
+{% block header_title %}{{ exercise.title }}{% endblock %}
+{% block header_subtitle %}{{ module.title }}{% endblock %}
+
+{% block content %}
+
+<!-- Instruksi Latihan -->
+<div class="card">
+    <div class="card-title">Instruksi</div>
+    <p class="text-small mt-1">{{ exercise.description }}</p>
+</div>
+
+<!-- Langkah-langkah -->
+{% if exercise.get('steps') %}
+<h2 class="section-header">Langkah-Langkah</h2>
+{% for step in exercise.steps %}
+    <div class="exercise-step">
+        <div class="step-number">Langkah {{ loop.index }}</div>
+        <div class="step-content">{{ step }}</div>
+    </div>
+{% endfor %}
+{% endif %}
+
+<!-- Audio Placeholder -->
+{% if exercise.get('has_audio') %}
+<div class="audio-placeholder">
+    <div class="audio-icon">&#127925;</div>
+    <p>Audio Guided Exercise</p>
+    <p class="text-small text-muted">File audio akan ditambahkan di sini</p>
+</div>
+{% endif %}
+
+<!-- Mulai / Selesaikan Latihan -->
+<div class="card mt-2">
+    {% if not log %}
+        <form method="POST" action="{{ url_for('exercises.start_exercise', module_id=module_id, exercise_id=exercise.id) }}">
+            <button type="submit" class="btn btn-primary">Mulai Latihan</button>
+        </form>
+    {% elif not log.completed %}
+        <form method="POST" action="{{ url_for('exercises.complete_exercise', module_id=module_id, exercise_id=exercise.id) }}">
+            <div class="form-group">
+                <label class="form-label">Durasi latihan (menit)</label>
+                <input type="number" name="duration_minutes" class="form-input" min="1" max="180" placeholder="Berapa menit?">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Catatan (opsional)</label>
+                <textarea name="notes" class="form-input" placeholder="Pengalaman atau catatan selama latihan..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Tandai Selesai</button>
+        </form>
+    {% else %}
+        <p class="text-center text-muted">Latihan ini sudah selesai &#10003;</p>
+        <p class="text-center text-small text-muted">{{ log.completed_at.strftime('%d/%m/%Y %H:%M') if log.completed_at }}</p>
+    {% endif %}
+</div>
+
+<!-- Self-Assessment -->
+{% if exercise.get('assessment_questions') %}
+<h2 class="section-header">Self-Assessment</h2>
+<div class="card">
+    <form method="POST" action="{{ url_for('exercises.submit_assessment', module_id=module_id, exercise_id=exercise.id) }}">
+        {% for q in exercise.assessment_questions %}
+        <div class="form-group">
+            <label class="form-label">{{ q.question }}</label>
+            <div class="rating-group" data-input="q_{{ loop.index }}">
+                {% for i in range(1, 11) %}
+                <button type="button" class="rating-btn" data-value="{{ i }}">{{ i }}</button>
+                {% endfor %}
+            </div>
+            <input type="hidden" name="q_{{ loop.index }}" id="q_{{ loop.index }}" value="">
+        </div>
+        {% endfor %}
+
+        <div class="form-group">
+            <label class="form-label">Skor keseluruhan (1-10)</label>
+            <div class="rating-group" data-input="score">
+                {% for i in range(1, 11) %}
+                <button type="button" class="rating-btn" data-value="{{ i }}">{{ i }}</button>
+                {% endfor %}
+            </div>
+            <input type="hidden" name="score" id="score" value="">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Simpan Penilaian</button>
+    </form>
+</div>
+{% endif %}
+
+<!-- Jurnal Refleksi -->
+<h2 class="section-header">Jurnal Refleksi</h2>
+<div class="card">
+    <form method="POST" action="{{ url_for('exercises.add_journal', module_id=module_id, exercise_id=exercise.id) }}">
+        <div class="form-group">
+            <label class="form-label">Mood sebelum latihan (1-10)</label>
+            <input type="range" name="mood_before" class="mood-slider" min="1" max="10" value="5" data-display="mood_before_val">
+            <span id="mood_before_val" class="text-small text-muted">5</span>
+        </div>
+        <div class="form-group">
+            <label class="form-label">Mood setelah latihan (1-10)</label>
+            <input type="range" name="mood_after" class="mood-slider" min="1" max="10" value="5" data-display="mood_after_val">
+            <span id="mood_after_val" class="text-small text-muted">5</span>
+        </div>
+        <div class="form-group">
+            <label class="form-label">Refleksi / Insight</label>
+            <textarea name="content" class="form-input" placeholder="Apa yang Anda rasakan? Apa insight yang muncul? Apa yang ingin Anda eksplorasi lebih lanjut?" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Simpan Jurnal</button>
+    </form>
+</div>
+
+{% if journals %}
+<h2 class="section-header">Catatan Sebelumnya</h2>
+{% for entry in journals %}
+<div class="journal-entry">
+    <div class="journal-date">{{ entry.created_at.strftime('%d/%m/%Y %H:%M') }}
+        {% if entry.mood_before and entry.mood_after %}
+        | Mood: {{ entry.mood_before }} &rarr; {{ entry.mood_after }}
+        {% endif %}
+    </div>
+    <div class="journal-content">{{ entry.content }}</div>
+</div>
+{% endfor %}
+{% endif %}
+
+<div class="mt-2 mb-2">
+    <a href="{{ url_for('modules.module_detail', module_id=module_id) }}" class="btn btn-secondary">Kembali ke Modul</a>
+</div>
+
+{% endblock %}

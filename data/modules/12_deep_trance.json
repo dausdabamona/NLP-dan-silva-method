@@ -1,0 +1,89 @@
+{
+  "order": 12,
+  "title": "Deep Trance Identification (DTI)",
+  "level": "advanced",
+  "description_short": "Teknik modeling mendalam, trance states, identifikasi total",
+  "theory": [
+    {
+      "title": "Apa itu Deep Trance Identification?",
+      "content": "Deep Trance Identification (DTI) adalah teknik modeling paling mendalam dalam NLP. Berbeda dari modeling biasa yang mengamati dari luar, DTI melibatkan masuk ke trance state yang dalam dan secara mental 'menjadi' orang yang dimodel. Teknik ini didasarkan pada karya Vladimir Raikov dan dikembangkan lebih lanjut oleh John Grinder dan lainnya."
+    },
+    {
+      "title": "Sejarah dan Fondasi",
+      "content": "Vladimir Raikov, psikolog Rusia, melakukan eksperimen di mana subjek dalam trance hipnotik diinstruksikan untuk 'menjadi' seniman terkenal. Hasilnya menunjukkan peningkatan signifikan dalam kemampuan artistik. NLP mengadopsi prinsip ini dan menjadikannya teknik modeling yang paling powerful - mengakses pola-pola yang tidak bisa diungkap melalui observasi atau wawancara."
+    },
+    {
+      "title": "Tahapan DTI",
+      "content": "1) Persiapan: kumpulkan informasi tentang model (orang yang ingin dimodel) sebanyak mungkin. 2) Induksi trance: masuk ke trance yang cukup dalam. 3) Identifikasi: secara bertahap 'masuk ke dalam' model - adopsi physiology, breathing, postur, ekspresi. 4) Integrasi: biarkan pola-pola model terintegrasi secara bawah sadar. 5) De-identifikasi: kembali ke identitas sendiri sambil mempertahankan pembelajaran."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_12_01",
+      "title": "Persiapan DTI",
+      "description_short": "Riset dan persiapan untuk DTI",
+      "description": "Langkah pertama DTI adalah mengumpulkan informasi sebanyak mungkin tentang model Anda. Persiapan yang thorough sangat penting untuk DTI yang efektif.",
+      "steps": [
+        "Pilih seseorang yang ingin Anda model - idealnya seseorang yang Anda kagumi dan memiliki skill yang ingin Anda kuasai",
+        "Kumpulkan informasi: baca/tonton tentang mereka sebanyak mungkin",
+        "Amati physiology mereka secara detail: postur khas, cara berjalan, ekspresi, gestur",
+        "Pelajari cara mereka berbicara: ritme, nada, pilihan kata, tempo",
+        "Pahami belief system mereka: apa yang mereka yakini tentang bidangnya?",
+        "Pahami values mereka: apa yang paling penting bagi mereka?",
+        "Buat 'profil lengkap' model Anda secara tertulis"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa lengkap informasi yang berhasil Anda kumpulkan?"},
+        {"question": "Seberapa detail pemahaman Anda tentang physiology model?"}
+      ]
+    },
+    {
+      "id": "ex_12_02",
+      "title": "Latihan Trance Dalam",
+      "description_short": "Mengembangkan kemampuan trance mendalam",
+      "description": "Sebelum melakukan DTI, Anda perlu melatih kemampuan untuk masuk ke trance yang cukup dalam. Latihan ini mengembangkan kedalaman trance Anda secara progresif.",
+      "steps": [
+        "Duduk nyaman di tempat yang tenang, tidak akan diganggu",
+        "Tutup mata dan fokus pada napas selama 2 menit",
+        "Gunakan progressive relaxation: rilekskan setiap bagian tubuh dari kaki ke kepala",
+        "Bayangkan diri Anda menuruni tangga 10 anak tangga, semakin rileks di setiap langkah",
+        "Di dasar tangga, bayangkan tempat yang paling aman dan nyaman bagi Anda",
+        "Biarkan diri Anda benar-benar hadir di tempat itu - lihat detail, dengar suara, rasakan",
+        "Tetap di state ini selama 10-15 menit",
+        "Perlahan kembali: naik tangga, 10 sampai 1, buka mata"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa dalam trance yang bisa Anda capai?"},
+        {"question": "Seberapa stabil Anda bisa mempertahankan trance?"}
+      ]
+    },
+    {
+      "id": "ex_12_03",
+      "title": "DTI - Proses Lengkap",
+      "description_short": "Melakukan Deep Trance Identification penuh",
+      "description": "Lakukan proses DTI lengkap. CATATAN: Teknik ini sangat powerful. Untuk hasil optimal dan keamanan, pertimbangkan untuk melakukannya dengan bimbingan praktisi NLP bersertifikat.",
+      "steps": [
+        "Pastikan Anda sudah menyelesaikan persiapan (profil model) dan latihan trance dalam",
+        "Duduk nyaman, tutup mata, masuk ke trance menggunakan teknik dari latihan sebelumnya",
+        "Bayangkan model Anda berdiri di depan Anda - lihat sedetail mungkin",
+        "Perhatikan physiology mereka: postur, napas, ekspresi",
+        "Secara perlahan, bayangkan Anda 'melangkah masuk' ke tubuh model Anda",
+        "Mulai dari fisik: adopsi postur, napas, ekspresi wajah mereka",
+        "Lanjut ke mental: adopsi cara berpikir, beliefs, values mereka",
+        "Biarkan diri Anda benar-benar 'menjadi' mereka selama 5-10 menit",
+        "Dalam state ini, lakukan aktivitas mental yang terkait dengan skill mereka",
+        "Setelah selesai, secara perlahan 'melangkah keluar' - kembali ke identitas Anda sendiri",
+        "Pertahankan pembelajaran dan insight yang didapat",
+        "Buka mata, catat semua pengalaman dan insight"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa dalam identifikasi yang Anda rasakan?"},
+        {"question": "Insight atau kemampuan baru apa yang Anda peroleh?"},
+        {"question": "Seberapa mudah Anda kembali ke identitas sendiri (de-identifikasi)?"}
+      ]
+    }
+  ]
+}

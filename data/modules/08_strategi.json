@@ -1,0 +1,80 @@
+{
+  "order": 8,
+  "title": "Strategi & Modeling",
+  "level": "intermediate",
+  "description_short": "TOTE model, eliciting strategies, menginstal strategi baru",
+  "theory": [
+    {
+      "title": "Model TOTE",
+      "content": "TOTE (Test-Operate-Test-Exit) adalah model dasar strategi mental. Test: bandingkan keadaan saat ini dengan keadaan yang diinginkan. Operate: lakukan sesuatu untuk mendekatkan pada tujuan. Test lagi: apakah sudah tercapai? Exit: jika sudah, keluar dari loop. Setiap perilaku yang konsisten mengikuti strategi TOTE tertentu."
+    },
+    {
+      "title": "Eliciting Strategies",
+      "content": "Eliciting strategy adalah proses mengungkap urutan langkah-langkah mental (representasi internal) yang digunakan seseorang untuk mencapai hasil tertentu. Misalnya: strategi motivasi, strategi keputusan, strategi kreativitas. Setiap langkah melibatkan sistem representasi tertentu (V, A, K, Ai)."
+    },
+    {
+      "title": "Modeling Excellence",
+      "content": "Modeling adalah inti dari NLP - proses mengidentifikasi dan mereplikasi pola-pola (beliefs, physiology, strategies) dari seseorang yang sangat ahli dalam bidang tertentu. Tujuannya bukan sekadar meniru perilaku luar, tetapi menginstal struktur mental yang sama."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_08_01",
+      "title": "Elicit Strategi Motivasi",
+      "description_short": "Mengungkap strategi motivasi Anda",
+      "description": "Ungkap strategi motivasi internal Anda - urutan langkah mental yang membuat Anda termotivasi untuk bertindak.",
+      "steps": [
+        "Pikirkan sesuatu yang Anda sangat termotivasi untuk melakukan",
+        "Mulai dari awal: apa yang pertama kali terjadi? Apakah Anda melihat gambar (V)? Mendengar suara/kata (A/Ai)? Merasakan sesuatu (K)?",
+        "Lalu apa langkah selanjutnya? Dan selanjutnya?",
+        "Tuliskan urutan lengkap, misalnya: Ve (visual external) -> Ai (dialog internal) -> K (perasaan) -> Tindakan",
+        "Bandingkan: pikirkan sesuatu yang Anda TIDAK termotivasi - apa bedanya urutan strateginya?",
+        "Identifikasi perbedaan kritis antara kedua strategi"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa jelas Anda bisa mengungkap urutan strategi Anda?"},
+        {"question": "Seberapa besar perbedaan antara strategi motivasi dan non-motivasi?"}
+      ]
+    },
+    {
+      "id": "ex_08_02",
+      "title": "Modeling Seseorang yang Dikagumi",
+      "description_short": "Mempelajari pola orang yang Anda kagumi",
+      "description": "Pilih seseorang yang Anda kagumi dalam bidang tertentu dan model pola-pola mereka.",
+      "steps": [
+        "Pilih seseorang yang sangat ahli di bidang yang ingin Anda kuasai (bisa orang yang Anda kenal langsung)",
+        "Amati atau wawancarai mereka tentang: apa yang mereka yakini (beliefs)?",
+        "Amati physiology mereka: postur, napas, ekspresi saat melakukan keahliannya",
+        "Ungkap strategi mereka: langkah-langkah mental apa yang mereka lakukan? Urutan V-A-K apa?",
+        "Coba adopsi beliefs, physiology, dan strategi mereka satu per satu",
+        "Praktikkan dan catat hasilnya"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa detail model yang berhasil Anda buat?"},
+        {"question": "Seberapa efektif hasilnya saat Anda mencoba menerapkan model tersebut?"}
+      ]
+    },
+    {
+      "id": "ex_08_03",
+      "title": "Menginstal Strategi Baru",
+      "description_short": "Memasang strategi baru di pikiran",
+      "description": "Setelah mengungkap strategi yang efektif, instal strategi tersebut ke dalam pikiran Anda melalui rehearsal mental.",
+      "steps": [
+        "Pilih strategi yang ingin Anda instal (dari hasil modeling atau dari strategi Anda sendiri yang berhasil)",
+        "Tuliskan urutan langkah strategi secara detail: langkah 1 (V/A/K), langkah 2, dst",
+        "Duduk nyaman dan tutup mata",
+        "Jalankan strategi secara mental: ikuti setiap langkah dengan detail penuh",
+        "Ulangi 10 kali, semakin cepat setiap kali, sampai terasa otomatis",
+        "Future pace: bayangkan diri Anda di 3 situasi berbeda menggunakan strategi ini secara otomatis",
+        "Buka mata dan catat pengalaman Anda"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa mudah strategi baru terasa setelah rehearsal?"},
+        {"question": "Apakah strategi mulai terasa otomatis?"}
+      ]
+    }
+  ]
+}

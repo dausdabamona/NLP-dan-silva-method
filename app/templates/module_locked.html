@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Terkunci - NLP Training{% endblock %}
+{% block header_title %}{{ module.title }}{% endblock %}
+{% block header_subtitle %}Modul {{ module.order }}{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="lock-overlay">
+        <div class="lock-icon">&#128274;</div>
+        <h3 class="card-title">Modul Terkunci</h3>
+        <p class="text-muted mt-1">
+            Selesaikan modul sebelumnya (minimal 80%) untuk membuka modul ini.
+        </p>
+        <a href="{{ url_for('modules.module_list') }}" class="btn btn-secondary mt-2">Kembali ke Daftar Modul</a>
+    </div>
+</div>
+{% endblock %}

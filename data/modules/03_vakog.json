@@ -1,0 +1,79 @@
+{
+  "order": 3,
+  "title": "Sistem Representasi (VAKOG)",
+  "level": "basic",
+  "description_short": "Visual, Auditory, Kinesthetic, Olfactory, Gustatory",
+  "theory": [
+    {
+      "title": "Sistem Representasi",
+      "content": "Setiap orang memproses informasi melalui lima sistem representasi: Visual (penglihatan), Auditory (pendengaran), Kinesthetic (perasaan/sentuhan), Olfactory (penciuman), dan Gustatory (pengecapan). Kebanyakan orang memiliki satu sistem yang dominan, dan ini terlihat dari bahasa yang mereka gunakan."
+    },
+    {
+      "title": "Mengenali Preferensi",
+      "content": "Visual: 'Saya melihat apa yang Anda maksud', 'gambarannya jelas'. Auditory: 'Kedengarannya bagus', 'itu click bagi saya'. Kinesthetic: 'Saya merasakan ini benar', 'ini berat sekali'. Dengan mengenali preferensi seseorang, Anda bisa berkomunikasi dengan lebih efektif."
+    },
+    {
+      "title": "Eye Accessing Cues",
+      "content": "Gerakan mata mengindikasikan sistem representasi yang sedang diakses: Mata ke atas = visual, mata ke samping (telinga) = auditory, mata ke bawah kanan = kinesthetic, mata ke bawah kiri = dialog internal. Ini bukan mutlak tetapi merupakan panduan yang berguna."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_03_01",
+      "title": "Identifikasi Sistem Dominan",
+      "description_short": "Temukan sistem representasi dominan Anda",
+      "description": "Jawab pertanyaan-pertanyaan berikut untuk mengidentifikasi sistem representasi dominan Anda. Perhatikan jawaban mana yang paling natural bagi Anda.",
+      "steps": [
+        "Pikirkan liburan terakhir Anda - apa yang pertama kali muncul: gambar/pemandangan, suara, atau perasaan?",
+        "Saat mengingat seseorang, apa yang paling Anda ingat: wajahnya, suaranya, atau perasaan saat bersama?",
+        "Perhatikan bahasa sehari-hari Anda selama satu hari - kata-kata visual, auditory, atau kinesthetic yang paling sering?",
+        "Tuliskan temuan Anda di jurnal",
+        "Ulangi observasi selama 3 hari untuk konfirmasi"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa jelas Anda mengenali sistem dominan Anda?"},
+        {"question": "Seberapa mudah Anda membedakan ketiga sistem?"}
+      ]
+    },
+    {
+      "id": "ex_03_02",
+      "title": "Latihan Eye Accessing Cues",
+      "description_short": "Membaca gerakan mata",
+      "description": "Praktikkan membaca gerakan mata orang lain saat mereka menjawab pertanyaan yang membutuhkan akses ke sistem representasi berbeda.",
+      "steps": [
+        "Minta teman duduk berhadapan dengan Anda",
+        "Ajukan pertanyaan visual: 'Apa warna pintu depan rumahmu?' - amati arah mata",
+        "Ajukan pertanyaan auditory: 'Coba ingat suara ibumu memanggil namamu' - amati arah mata",
+        "Ajukan pertanyaan kinesthetic: 'Bagaimana rasanya memegang es batu?' - amati arah mata",
+        "Ajukan pertanyaan dialog internal: 'Apa yang kamu katakan pada dirimu saat bangun pagi?' - amati",
+        "Catat pola yang Anda temukan"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa konsisten pola gerakan mata yang Anda amati?"},
+        {"question": "Seberapa percaya diri Anda membaca eye accessing cues?"}
+      ]
+    },
+    {
+      "id": "ex_03_03",
+      "title": "Berbicara dalam Semua Sistem",
+      "description_short": "Melatih fleksibilitas bahasa representasi",
+      "description": "Latihan ini melatih Anda untuk berkomunikasi menggunakan semua sistem representasi, meningkatkan fleksibilitas dan efektivitas komunikasi.",
+      "steps": [
+        "Pilih satu topik sederhana (misalnya: menjelaskan pantai)",
+        "Deskripsikan menggunakan bahasa visual: warna, bentuk, ukuran, jarak",
+        "Deskripsikan menggunakan bahasa auditory: suara, ritme, nada, volume",
+        "Deskripsikan menggunakan bahasa kinesthetic: tekstur, suhu, berat, perasaan",
+        "Gabungkan ketiganya dalam satu paragraf yang kaya",
+        "Praktikkan ini dengan 3 topik berbeda"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa mudah Anda menggunakan bahasa visual?"},
+        {"question": "Seberapa mudah Anda menggunakan bahasa auditory?"},
+        {"question": "Seberapa mudah Anda menggunakan bahasa kinesthetic?"}
+      ]
+    }
+  ]
+}

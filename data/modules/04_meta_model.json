@@ -1,0 +1,77 @@
+{
+  "order": 4,
+  "title": "Meta Model",
+  "level": "basic",
+  "description_short": "Pola bahasa: deletion, distortion, generalization",
+  "theory": [
+    {
+      "title": "Apa itu Meta Model?",
+      "content": "Meta Model adalah seperangkat pertanyaan presisi yang dikembangkan oleh Bandler dan Grinder berdasarkan pola bahasa Virginia Satir dan Fritz Perls. Tujuannya adalah untuk mengembalikan informasi yang hilang (deletion), meluruskan informasi yang terdistorsi (distortion), dan mengklarifikasi generalisasi (generalization)."
+    },
+    {
+      "title": "Pola Deletion",
+      "content": "Deletion terjadi saat informasi penting dihilangkan. Contoh: 'Saya takut' (takut apa?), 'Mereka bilang begitu' (siapa mereka?), 'Ini lebih baik' (lebih baik dari apa?). Pertanyaan Meta Model mengembalikan informasi yang hilang."
+    },
+    {
+      "title": "Pola Distortion dan Generalization",
+      "content": "Distortion: 'Dia membuat saya marah' (bagaimana tepatnya?), 'Saya tahu dia tidak suka saya' (dari mana Anda tahu?). Generalization: 'Selalu begitu' (selalu? Kapan tidak?), 'Semua orang...' (semua tanpa kecuali?), 'Saya tidak bisa' (apa yang terjadi jika Anda bisa?)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_04_01",
+      "title": "Mengenali Pola Deletion",
+      "description_short": "Identifikasi informasi yang hilang",
+      "description": "Latihan ini melatih Anda mengenali dan menantang pola deletion dalam bahasa sehari-hari.",
+      "steps": [
+        "Baca kalimat-kalimat berikut dan identifikasi informasi yang hilang",
+        "Kalimat 1: 'Saya kesal' - Tanyakan: Kesal tentang apa? Kepada siapa?",
+        "Kalimat 2: 'Ini tidak adil' - Tanyakan: Apa yang tidak adil? Menurut standar siapa?",
+        "Kalimat 3: 'Mereka tidak mengerti' - Tanyakan: Siapa mereka? Tidak mengerti apa?",
+        "Selama sehari, catat 5 contoh deletion dalam percakapan Anda sendiri",
+        "Untuk setiap contoh, tuliskan pertanyaan Meta Model yang tepat"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa mudah Anda mengenali pola deletion?"},
+        {"question": "Seberapa natural Anda mengajukan pertanyaan presisi?"}
+      ]
+    },
+    {
+      "id": "ex_04_02",
+      "title": "Menantang Distorsi",
+      "description_short": "Meluruskan interpretasi yang terdistorsi",
+      "description": "Praktikkan mengenali dan menantang pola distorsi dalam bahasa, baik dari diri sendiri maupun orang lain.",
+      "steps": [
+        "Identifikasi 3 kepercayaan yang membatasi Anda (contoh: 'Saya tidak cukup pintar')",
+        "Untuk setiap kepercayaan, tanyakan: 'Bagaimana tepatnya saya tahu ini?'",
+        "Tanyakan: 'Bukti apa yang mendukung dan menentang kepercayaan ini?'",
+        "Tanyakan: 'Siapa yang mengatakan ini pertama kali? Apakah mereka otoritas yang tepat?'",
+        "Buat versi yang lebih akurat dari setiap kepercayaan tersebut"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa mudah Anda mengenali distorsi dalam pikiran Anda?"},
+        {"question": "Seberapa efektif pertanyaan Meta Model mengubah perspektif Anda?"}
+      ]
+    },
+    {
+      "id": "ex_04_03",
+      "title": "Melawan Generalisasi",
+      "description_short": "Mengklarifikasi penyamarataan",
+      "description": "Latihan ini melatih Anda untuk mengenali dan menantang generalisasi yang membatasi.",
+      "steps": [
+        "Identifikasi 3 generalisasi yang sering Anda gunakan (kata kunci: selalu, tidak pernah, semua, setiap)",
+        "Untuk setiap generalisasi, tanyakan: 'Benar-benar selalu/tidak pernah?'",
+        "Temukan minimal satu pengecualian untuk setiap generalisasi",
+        "Ubah generalisasi menjadi pernyataan yang lebih spesifik dan akurat",
+        "Praktikkan menggunakan bahasa yang lebih spesifik selama satu hari penuh"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa sering Anda menggunakan generalisasi dalam bahasa sehari-hari?"},
+        {"question": "Seberapa mudah Anda menemukan pengecualian?"}
+      ]
+    }
+  ]
+}

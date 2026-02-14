@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Profil - NLP Training{% endblock %}
+{% block header_title %}Profil Saya{% endblock %}
+{% block header_subtitle %}{{ current_user.username }}{% endblock %}
+
+{% block content %}
+<div class="card mt-2">
+    <div class="card-title">Informasi Akun</div>
+    <p class="text-small text-muted mt-1">Username: <strong>{{ current_user.username }}</strong></p>
+    <p class="text-small text-muted">Bergabung: {{ current_user.created_at.strftime('%d %B %Y') }}</p>
+</div>
+
+<div class="card">
+    <div class="card-title">Tentang Aplikasi</div>
+    <p class="text-small text-muted mt-1">
+        NLP Training - Metode Dan Silva adalah aplikasi latihan Neuro-Linguistic Programming
+        dari level basic sampai advanced. Aplikasi ini mencakup teknik-teknik seperti
+        Anchoring, Submodalities Mapping, Reframing, Milton Model, hingga Deep Trance Identification.
+    </p>
+</div>
+
+<div class="mt-2">
+    <a href="{{ url_for('auth.logout') }}" class="btn btn-secondary">Keluar</a>
+</div>
+{% endblock %}

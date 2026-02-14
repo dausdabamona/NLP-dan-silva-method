@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#16213e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="/static/manifest.json">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>{% block title %}NLP Training{% endblock %}</title>
+</head>
+<body>
+    <header class="app-header">
+        <h1>{% block header_title %}NLP Training{% endblock %}</h1>
+        <div class="subtitle">{% block header_subtitle %}Metode Dan Silva{% endblock %}</div>
+    </header>
+
+    <div class="container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% for category, message in messages %}
+                <div class="flash flash-{{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+    </div>
+
+    {% if current_user.is_authenticated %}
+    <nav class="bottom-nav">
+        <a href="{{ url_for('modules.module_list') }}" class="{% if request.endpoint and 'modules' in request.endpoint %}active{% endif %}">
+            <span class="nav-icon">&#9776;</span>
+            Modul
+        </a>
+        <a href="{{ url_for('progress.dashboard') }}" class="{% if request.endpoint and 'progress' in request.endpoint %}active{% endif %}">
+            <span class="nav-icon">&#9733;</span>
+            Progress
+        </a>
+        <a href="{{ url_for('auth.profile') }}" class="{% if request.endpoint == 'auth.profile' %}active{% endif %}">
+            <span class="nav-icon">&#9881;</span>
+            Profil
+        </a>
+    </nav>
+    {% endif %}
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
