@@ -1,0 +1,81 @@
+{
+  "order": 6,
+  "title": "Submodalities Mapping",
+  "level": "intermediate",
+  "description_short": "Mengubah kualitas representasi internal",
+  "theory": [
+    {
+      "title": "Apa itu Submodalities?",
+      "content": "Submodalities adalah kualitas-kualitas spesifik dari representasi internal kita. Dalam sistem visual: ukuran gambar, jarak, brightness, warna vs hitam-putih, bergerak vs diam, fokus, posisi. Dalam sistem auditory: volume, pitch, tempo, arah suara, mono vs stereo. Dalam sistem kinesthetic: lokasi di tubuh, intensitas, suhu, tekanan, gerakan."
+    },
+    {
+      "title": "Mengapa Submodalities Penting?",
+      "content": "Submodalities menentukan BAGAIMANA kita merasakan sesuatu, bukan apa isinya. Memori yang menakutkan biasanya memiliki submodalities berbeda dari memori yang menyenangkan (misalnya lebih besar, lebih dekat, lebih gelap). Dengan mengubah submodalities, kita bisa mengubah bagaimana kita merasakan pengalaman tersebut."
+    },
+    {
+      "title": "Submodalities Kritis (Driver)",
+      "content": "Setiap orang memiliki 1-2 submodality yang paling berpengaruh terhadap intensitas pengalaman mereka. Ini disebut 'driver submodality'. Mengubah driver submodality akan mengubah pengalaman secara dramatis, sementara mengubah submodality lain mungkin hanya berdampak kecil."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_06_01",
+      "title": "Mapping Submodalities",
+      "description_short": "Memetakan submodalities pengalaman positif dan negatif",
+      "description": "Petakan submodalities dari pengalaman positif dan negatif untuk menemukan perbedaan struktural antara keduanya.",
+      "steps": [
+        "Pikirkan pengalaman yang sangat MENYENANGKAN",
+        "Amati submodalities visual: ukuran gambar? jarak? brightness? warna/hitam putih? bergerak/diam? di mana posisinya?",
+        "Amati submodalities auditory: ada suara? volume? arah? nada?",
+        "Amati submodalities kinesthetic: perasaan di mana di tubuh? intensitas? suhu? gerakan?",
+        "Catat semua temuan",
+        "Sekarang pikirkan pengalaman yang TIDAK MENYENANGKAN dan ulangi proses yang sama",
+        "Bandingkan: apa perbedaan utama submodalities antara keduanya?"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa detail Anda bisa mengamati submodalities?"},
+        {"question": "Seberapa jelas perbedaan antara pengalaman positif dan negatif?"}
+      ]
+    },
+    {
+      "id": "ex_06_02",
+      "title": "Swish Pattern",
+      "description_short": "Mengubah respons otomatis dengan swish",
+      "description": "Swish Pattern menggunakan submodalities untuk mengubah respons otomatis yang tidak diinginkan menjadi respons yang lebih memberdayakan.",
+      "steps": [
+        "Identifikasi perilaku/respons yang ingin Anda ubah (misalnya: respons cemas saat presentasi)",
+        "Buat gambar mental dari 'trigger' - gambar yang muncul tepat sebelum perilaku itu terjadi. Buat besar, terang, associated (Anda di dalamnya)",
+        "Sekarang buat gambar 'diri ideal' - Anda yang sudah bebas dari perilaku lama, penuh percaya diri. Buat kecil dan gelap di sudut kiri bawah",
+        "SWISH: secara cepat, buat gambar trigger mengecil dan gelap, sementara gambar diri ideal membesar dan terang - lakukan dalam 1 detik",
+        "Blank screen: kosongkan pikiran sepenuhnya",
+        "Ulangi langkah 4-5 sebanyak 7-10 kali, semakin cepat setiap kali",
+        "Uji: coba pikirkan trigger - apa yang terjadi?"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa mudah Anda melakukan swish pattern?"},
+        {"question": "Seberapa efektif perubahan yang Anda rasakan?"}
+      ]
+    },
+    {
+      "id": "ex_06_03",
+      "title": "Menemukan Driver Submodality",
+      "description_short": "Identifikasi submodality yang paling berpengaruh",
+      "description": "Temukan driver submodality Anda - submodality yang paling berpengaruh terhadap intensitas pengalaman.",
+      "steps": [
+        "Akses pengalaman emosional yang moderat (jangan terlalu intens)",
+        "Satu per satu, ubah setiap submodality visual dan perhatikan mana yang paling mengubah intensitas",
+        "Coba: perbesar/kecilkan gambar, dekatkan/jauhkan, terangkan/gelapkan, tambah/kurangi warna",
+        "Catat mana yang paling berdampak - ini kemungkinan driver Anda",
+        "Uji dengan pengalaman lain - apakah driver yang sama berlaku?",
+        "Sekarang gunakan driver submodality ini untuk mengubah intensitas pengalaman negatif (kecilkan/jauhkan) dan positif (besarkan/dekatkan)"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Berhasilkah Anda menemukan driver submodality Anda?"},
+        {"question": "Seberapa besar dampak perubahan driver submodality?"}
+      ]
+    }
+  ]
+}

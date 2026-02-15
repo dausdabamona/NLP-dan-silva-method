@@ -1,0 +1,85 @@
+{
+  "order": 10,
+  "title": "Timeline Therapy",
+  "level": "advanced",
+  "description_short": "Mengakses dan mengubah representasi waktu",
+  "theory": [
+    {
+      "title": "Apa itu Timeline?",
+      "content": "Timeline adalah cara pikiran bawah sadar mengorganisasikan memori berdasarkan waktu. Setiap orang memiliki timeline unik - ada yang 'through time' (timeline di depan mereka, bisa melihat masa lalu dan depan) dan 'in time' (timeline melewati tubuh mereka, lebih hadir di saat ini). Timeline bisa diakses dan diubah untuk tujuan terapeutik."
+    },
+    {
+      "title": "Timeline Therapy",
+      "content": "Dikembangkan oleh Tad James, Timeline Therapy menggunakan timeline untuk: (1) menghapus emosi negatif yang terhubung dengan memori masa lalu, (2) menghapus limiting decisions yang dibuat di masa lalu, (3) menciptakan masa depan yang compelling. Teknik ini bekerja pada level gestalt - mengubah root cause, bukan sekadar gejala."
+    },
+    {
+      "title": "Prinsip Dasar",
+      "content": "Emosi negatif yang kita rasakan sekarang seringkali berakar pada kejadian pertama (root cause) di masa lalu. Dengan terbang di atas timeline ke kejadian tersebut, kita bisa melihat dari perspektif yang lebih tinggi dan melepaskan emosi negatif yang terhubung dengannya, sambil mempertahankan pembelajaran yang berharga."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_10_01",
+      "title": "Menemukan Timeline Anda",
+      "description_short": "Identifikasi bentuk timeline personal",
+      "description": "Temukan dan petakan timeline personal Anda - bagaimana pikiran bawah sadar Anda mengorganisasikan waktu.",
+      "steps": [
+        "Duduk nyaman dan tutup mata",
+        "Pikirkan sesuatu yang terjadi 1 minggu yang lalu - di mana lokasi memori itu? Tunjuk arahnya",
+        "Pikirkan 1 bulan yang lalu - di mana? Tunjuk",
+        "Pikirkan 1 tahun lalu, 5 tahun lalu, masa kecil - di mana masing-masing?",
+        "Sekarang pikirkan 1 minggu ke depan, 1 bulan, 1 tahun, 5 tahun - di mana?",
+        "Hubungkan semua titik - seperti apa garis waktu Anda? Lurus? Melengkung? Dari mana ke mana?",
+        "Gambar/sketsa timeline Anda di kertas"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa jelas Anda bisa merasakan lokasi memori dalam ruang?"},
+        {"question": "Apakah Anda tipe 'through time' atau 'in time'?"}
+      ]
+    },
+    {
+      "id": "ex_10_02",
+      "title": "Melepaskan Emosi Negatif",
+      "description_short": "Teknik melepas emosi dari timeline",
+      "description": "Gunakan teknik timeline untuk melepaskan emosi negatif yang berakar di masa lalu. CATATAN: Untuk trauma berat, lakukan dengan pendampingan praktisi bersertifikat.",
+      "steps": [
+        "Pilih emosi negatif RINGAN yang ingin Anda lepaskan (misalnya: rasa kesal terhadap situasi tertentu)",
+        "Bayangkan Anda terbang NAIK ke atas timeline Anda, melihat dari ketinggian",
+        "Terbang mundur sepanjang timeline, ke kejadian pertama di mana emosi ini muncul",
+        "Berhenti di ATAS kejadian tersebut - lihat dari ketinggian, bukan masuk ke dalamnya",
+        "Dari posisi ini, apa pembelajaran positif yang bisa Anda ambil?",
+        "Setelah mendapat pembelajaran, biarkan emosi negatif terlepas ke bawah (jatuh dari timeline)",
+        "Terbang kembali ke saat ini, bawa pembelajaran positif bersama Anda",
+        "Terbang ke masa depan - bayangkan diri Anda tanpa emosi negatif itu di 3 situasi berbeda",
+        "Kembali ke sekarang, buka mata"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa intens emosi negatif sebelum dan sesudah latihan?"},
+        {"question": "Apakah Anda mendapat pembelajaran positif dari kejadian tersebut?"}
+      ]
+    },
+    {
+      "id": "ex_10_03",
+      "title": "Future Timeline Programming",
+      "description_short": "Memprogram masa depan yang compelling",
+      "description": "Gunakan timeline untuk menciptakan masa depan yang menarik dan memotivasi, kemudian program pikiran bawah sadar untuk bergerak ke arahnya.",
+      "steps": [
+        "Tentukan satu tujuan spesifik yang ingin Anda capai",
+        "Bayangkan Anda terbang naik ke atas timeline",
+        "Terbang ke masa depan, ke waktu di mana tujuan sudah tercapai",
+        "MASUK ke pengalaman itu: lihat apa yang Anda lihat, dengar apa yang Anda dengar, rasakan apa yang Anda rasakan",
+        "Perkuat semua submodalities: buat lebih besar, lebih terang, lebih intens",
+        "Dari posisi ini, lihat ke belakang: langkah-langkah apa yang sudah Anda ambil untuk sampai di sini?",
+        "Tempatkan pengalaman ini di timeline masa depan Anda",
+        "Terbang kembali ke sekarang, bawa motivasi dan keyakinan bersama Anda"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa vivid dan compelling visi masa depan Anda?"},
+        {"question": "Seberapa termotivasi Anda setelah latihan ini?"}
+      ]
+    }
+  ]
+}

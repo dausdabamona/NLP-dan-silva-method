@@ -1,19 +1,15 @@
 name: Build APK
 
 on:
-  # Manual trigger - bisa set URL server saat trigger
+  # Manual trigger - klik "Run workflow" di GitHub Actions
   workflow_dispatch:
-    inputs:
-      base_url:
-        description: 'URL server Flask Anda (contoh: https://nlp-training.onrender.com)'
-        required: true
-        default: 'https://nlp-training.onrender.com'
 
-  # Auto build saat push ke main (opsional)
+  # Auto build saat push ke main yang mengubah file android/
   push:
     branches: [ main ]
     paths:
       - 'android/**'
+      - 'data/modules/**'
 
 jobs:
   build:
@@ -32,6 +28,11 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
+      - name: Copy latest module data to assets
+        run: |
+          mkdir -p android/app/src/main/assets/data/modules
+          cp data/modules/*.json android/app/src/main/assets/data/modules/
+
       - name: Cache Gradle packages
         uses: actions/cache@v4
         with:
@@ -42,10 +43,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
 
-      - name: Make gradlew executable
+      - name: Create Gradle wrapper
         run: |
           cd android
-          # Create gradle wrapper if not exists
           if [ ! -f gradlew ]; then
             gradle wrapper --gradle-version 8.5
           fi
@@ -54,23 +54,11 @@ jobs:
       - name: Build Debug APK
         run: |
           cd android
-          ./gradlew assembleDebug -PBASE_URL="${{ github.event.inputs.base_url || 'https://nlp-training.onrender.com' }}"
+          ./gradlew assembleDebug
 
-      - name: Build Release APK
-        run: |
-          cd android
-          ./gradlew assembleRelease -PBASE_URL="${{ github.event.inputs.base_url || 'https://nlp-training.onrender.com' }}"
-
-      - name: Upload Debug APK
+      - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: NLPTraining-debug
+          name: NLPTraining-v${{ github.run_number }}
           path: android/app/build/outputs/apk/debug/*.apk
-          retention-days: 30
-
-      - name: Upload Release APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: NLPTraining-release
-          path: android/app/build/outputs/apk/release/*.apk
-          retention-days: 30
+          retention-days: 90

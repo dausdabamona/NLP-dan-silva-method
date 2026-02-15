@@ -1,0 +1,88 @@
+{
+  "order": 5,
+  "title": "Anchoring",
+  "level": "intermediate",
+  "description_short": "Membuat, stacking, collapsing, dan chaining anchor",
+  "theory": [
+    {
+      "title": "Apa itu Anchoring?",
+      "content": "Anchoring adalah proses menghubungkan stimulus eksternal (sentuhan, suara, gambar) dengan state internal (emosi, kondisi mental). Ini mirip dengan conditioning klasik Pavlov. Saat anchor diaktifkan (fired), state yang terhubung akan muncul kembali. Anchor bisa dibuat secara sengaja untuk mengakses state yang diinginkan kapan saja."
+    },
+    {
+      "title": "Jenis-Jenis Anchoring",
+      "content": "Stacking Anchors: menumpuk beberapa state positif ke satu anchor untuk memperkuatnya. Collapsing Anchors: menggabungkan anchor positif dan negatif untuk menetralisir state negatif. Chaining Anchors: membuat rangkaian anchor yang membawa Anda dari state saat ini ke state yang diinginkan secara bertahap."
+    },
+    {
+      "title": "Syarat Anchor yang Efektif",
+      "content": "ITURN: Intensity (state harus intens), Timing (pasang anchor saat state di puncak), Uniqueness (stimulus harus unik), Replication (bisa diulang dengan persis), Number of times (semakin sering dipasang, semakin kuat)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_05_01",
+      "title": "Basic Anchoring",
+      "description_short": "Membuat anchor pertama Anda",
+      "description": "Buat anchor sederhana untuk state percaya diri. Anda akan belajar memasang, menguji, dan menggunakan anchor dalam kehidupan nyata.",
+      "steps": [
+        "Duduk dengan nyaman, tutup mata, dan ambil 3 napas dalam",
+        "Ingat saat Anda merasa SANGAT percaya diri - lihat apa yang Anda lihat saat itu, dengar apa yang Anda dengar, rasakan apa yang Anda rasakan",
+        "Buat pengalaman itu semakin intens: perbesar gambar, perkeras suara, perkuat perasaan",
+        "Saat perasaan percaya diri di PUNCAK, tekan ibu jari dan jari tengah tangan kanan bersamaan (ini adalah anchor Anda)",
+        "Tahan 5-10 detik, lalu lepas dan buka mata",
+        "Break state: pikirkan sesuatu netral (misalnya warna dinding)",
+        "Uji anchor: tekan ibu jari dan jari tengah lagi - apakah perasaan percaya diri muncul?",
+        "Ulangi proses ini 3-5 kali untuk memperkuat anchor"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa intens state percaya diri yang bisa Anda akses?"},
+        {"question": "Seberapa efektif anchor Anda saat diuji?"},
+        {"question": "Seberapa mudah Anda mengakses memori yang intens?"}
+      ]
+    },
+    {
+      "id": "ex_05_02",
+      "title": "Stacking Anchors",
+      "description_short": "Menumpuk beberapa state positif",
+      "description": "Tumpuk beberapa state positif (percaya diri, tenang, fokus, bersemangat) ke satu anchor untuk membuat resource anchor yang sangat kuat.",
+      "steps": [
+        "Gunakan anchor yang sama dari latihan sebelumnya (ibu jari + jari tengah)",
+        "Akses memori percaya diri - saat di puncak, fire anchor",
+        "Break state",
+        "Akses memori saat Anda sangat TENANG - saat di puncak, fire anchor yang sama",
+        "Break state",
+        "Akses memori saat Anda sangat FOKUS - saat di puncak, fire anchor yang sama",
+        "Break state",
+        "Akses memori saat Anda sangat BERSEMANGAT - saat di puncak, fire anchor yang sama",
+        "Break state, lalu uji anchor - Anda seharusnya merasakan campuran semua state tersebut"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Berapa banyak state berbeda yang berhasil Anda stack?"},
+        {"question": "Seberapa kuat campuran state yang dihasilkan?"}
+      ]
+    },
+    {
+      "id": "ex_05_03",
+      "title": "Collapsing Anchors",
+      "description_short": "Menetralisir state negatif",
+      "description": "Teknik ini digunakan untuk menetralisir state negatif dengan menggabungkannya dengan state positif yang lebih kuat. Hasilnya adalah state negatif kehilangan intensitasnya.",
+      "steps": [
+        "Identifikasi satu state negatif ringan yang ingin Anda ubah (jangan yang terlalu traumatis)",
+        "Pasang anchor negatif di lutut KIRI: akses memori negatif, saat di puncak tekan lutut kiri",
+        "Break state",
+        "Pasang anchor positif di lutut KANAN: akses 3-4 memori sangat positif (stack), saat di puncak tekan lutut kanan",
+        "Break state",
+        "Sekarang, fire KEDUA anchor bersamaan (tekan kedua lutut)",
+        "Tahan sampai Anda merasakan integrasi (biasanya ada perasaan 'shift')",
+        "Lepas anchor negatif (lutut kiri) DULU, biarkan anchor positif aktif beberapa detik",
+        "Break state, lalu uji: coba akses memori negatif - bagaimana rasanya sekarang?"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa signifikan perubahan yang Anda rasakan pada state negatif?"},
+        {"question": "Seberapa yakin Anda bahwa proses ini berhasil?"}
+      ]
+    }
+  ]
+}

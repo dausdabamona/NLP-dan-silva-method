@@ -12,9 +12,6 @@ android {
         targetSdk 34
         versionCode 1
         versionName "1.0"
-
-        // URL server Flask Anda - GANTI dengan URL deploy Render/Railway Anda
-        buildConfigField "String", "BASE_URL", "\"${project.findProperty('BASE_URL') ?: 'https://nlp-training.onrender.com'}\""
     }
 
     buildTypes {
@@ -31,14 +28,8 @@ android {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
-
-    buildFeatures {
-        buildConfig true
-    }
 }
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'androidx.webkit:webkit:1.8.0'
-    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
 }

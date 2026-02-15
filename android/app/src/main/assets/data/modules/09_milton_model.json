@@ -1,0 +1,81 @@
+{
+  "order": 9,
+  "title": "Milton Model & Hypnotic Language",
+  "level": "advanced",
+  "description_short": "Pola bahasa hipnotik, embedded commands, analog marking",
+  "theory": [
+    {
+      "title": "Milton Model",
+      "content": "Milton Model adalah kebalikan dari Meta Model. Jika Meta Model bertujuan untuk memperoleh informasi spesifik, Milton Model menggunakan bahasa yang sengaja ambigu dan artfully vague untuk membypass pikiran sadar dan berkomunikasi langsung dengan pikiran bawah sadar. Teknik ini dimodelkan dari Milton H. Erickson, bapak hipnoterapi modern."
+    },
+    {
+      "title": "Pola-Pola Milton Model",
+      "content": "Mind Reading: 'Saya tahu Anda penasaran...'. Lost Performative: 'Adalah hal yang baik untuk...'. Cause-Effect: 'Semakin Anda mendengarkan, semakin Anda merasa rileks'. Presupposition: 'Sebelum Anda merasa rileks, perhatikan napas Anda'. Tag Questions: 'Anda bisa merasakan itu, bukan?'. Embedded Commands: perintah tersembunyi dalam kalimat."
+    },
+    {
+      "title": "Embedded Commands & Analog Marking",
+      "content": "Embedded commands adalah perintah yang disembunyikan dalam kalimat yang lebih panjang. Contoh: 'Saya tidak tahu apakah Anda akan MERASA RILEKS SEKARANG atau nanti.' Analog marking memperkuat embedded commands melalui perubahan nada suara, jeda, atau gestur saat mengucapkan bagian perintah."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_09_01",
+      "title": "Menulis Pola Milton Model",
+      "description_short": "Praktik menulis kalimat Milton Model",
+      "description": "Latih kemampuan Anda membuat kalimat-kalimat Milton Model yang efektif.",
+      "steps": [
+        "Buat 3 kalimat Mind Reading: 'Saya tahu Anda sedang...'",
+        "Buat 3 kalimat Cause-Effect: 'Semakin Anda..., semakin...'",
+        "Buat 3 kalimat dengan Presupposition: 'Sebelum Anda..., perhatikan...'",
+        "Buat 3 kalimat dengan Embedded Commands (garis bawahi perintah tersembunyi)",
+        "Gabungkan semuanya menjadi paragraf yang mengalir natural",
+        "Baca paragraf tersebut dengan suara keras - apakah terdengar natural?"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa mudah Anda membuat pola Milton Model?"},
+        {"question": "Seberapa natural kalimat-kalimat yang Anda buat?"}
+      ]
+    },
+    {
+      "id": "ex_09_02",
+      "title": "Praktik Analog Marking",
+      "description_short": "Menandai perintah dengan perubahan suara",
+      "description": "Praktikkan penggunaan analog marking - menandai embedded commands melalui perubahan nada suara, kecepatan, atau volume.",
+      "steps": [
+        "Tulis 5 kalimat yang mengandung embedded commands",
+        "Contoh: 'Banyak orang menemukan bahwa mereka bisa MERASA TENANG saat mendengarkan ini'",
+        "Praktikkan membaca setiap kalimat dengan analog marking: ubah nada suara sedikit saat mengucapkan embedded command",
+        "Rekam diri Anda (gunakan HP) dan dengarkan kembali",
+        "Apakah marking cukup halus tapi masih terdeteksi?",
+        "Praktikkan sampai marking terasa natural, tidak dibuat-buat"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa halus analog marking Anda?"},
+        {"question": "Seberapa natural penyampaian Anda?"}
+      ]
+    },
+    {
+      "id": "ex_09_03",
+      "title": "Self-Hypnosis dengan Milton Model",
+      "description_short": "Hipnosis diri menggunakan pola Milton",
+      "description": "Gunakan pola-pola Milton Model untuk melakukan self-hypnosis yang efektif.",
+      "steps": [
+        "Tentukan satu tujuan untuk sesi self-hypnosis ini (misalnya: meningkatkan percaya diri)",
+        "Tulis script 5-10 menit menggunakan pola Milton Model yang sudah dipelajari",
+        "Masukkan minimal: 3 cause-effect, 3 presupposition, 5 embedded commands",
+        "Duduk/berbaring nyaman, tutup mata",
+        "Baca script dalam pikiran (atau rekam dan dengarkan)",
+        "Biarkan pikiran bawah sadar merespons tanpa analisis",
+        "Setelah selesai, diam 2-3 menit sebelum membuka mata",
+        "Catat pengalaman dan perubahan yang dirasakan"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa dalam state trance yang Anda capai?"},
+        {"question": "Seberapa efektif script Milton Model Anda?"}
+      ]
+    }
+  ]
+}

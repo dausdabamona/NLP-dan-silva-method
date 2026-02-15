@@ -1,0 +1,78 @@
+{
+  "order": 2,
+  "title": "Rapport & Kalibrasi",
+  "level": "basic",
+  "description_short": "Matching, mirroring, pacing-leading, membaca sinyal",
+  "theory": [
+    {
+      "title": "Apa itu Rapport?",
+      "content": "Rapport adalah hubungan harmonis di mana terjadi saling pengertian dan kepercayaan. Dalam NLP, rapport dibangun secara sadar melalui proses matching (menyamakan) dan mirroring (mencerminkan) aspek-aspek komunikasi lawan bicara: postur tubuh, gestur, ritme napas, nada suara, dan pola bahasa."
+    },
+    {
+      "title": "Kalibrasi",
+      "content": "Kalibrasi adalah kemampuan untuk membaca sinyal-sinyal halus dari orang lain: perubahan warna kulit, pernapasan, postur, ekspresi mikro, dan nada suara. Kalibrasi yang baik memungkinkan Anda mengetahui state internal seseorang tanpa perlu bertanya."
+    },
+    {
+      "title": "Pacing dan Leading",
+      "content": "Pacing adalah mengikuti/menyesuaikan diri dengan orang lain (membangun rapport). Leading adalah memimpin/mengarahkan setelah rapport terbangun. Urutan yang benar: pace-pace-pace-lead. Anda harus terlebih dahulu membangun rapport yang kuat sebelum bisa memimpin."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_02_01",
+      "title": "Matching Postur",
+      "description_short": "Menyamakan postur tubuh lawan bicara",
+      "description": "Dalam percakapan berikutnya, praktikkan matching postur tubuh secara halus. Perhatikan bagaimana ini mempengaruhi kualitas percakapan.",
+      "steps": [
+        "Pilih percakapan santai dengan teman atau keluarga",
+        "Amati postur tubuh mereka: apakah condong ke depan/belakang? Tangan di mana?",
+        "Secara halus, mulai menyamakan postur mereka (jangan meniru persis - cukup serupa)",
+        "Perhatikan apakah kualitas percakapan berubah",
+        "Setelah beberapa menit, coba ubah postur Anda - apakah mereka mengikuti? Ini tanda rapport terbangun"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa natural Anda melakukan matching postur?"},
+        {"question": "Apakah Anda merasakan perbedaan kualitas percakapan?"}
+      ]
+    },
+    {
+      "id": "ex_02_02",
+      "title": "Kalibrasi Emosi",
+      "description_short": "Membaca sinyal emosional orang lain",
+      "description": "Latihan ini melatih kepekaan Anda dalam membaca state emosional orang lain melalui sinyal-sinyal non-verbal.",
+      "steps": [
+        "Minta seorang teman untuk memikirkan seseorang yang mereka sukai (tanpa menyebutkan nama)",
+        "Amati dengan teliti: ekspresi wajah, warna kulit, postur, napas",
+        "Catat semua yang Anda amati (ini adalah 'state A')",
+        "Minta teman memikirkan seseorang yang mereka kurang sukai",
+        "Amati kembali dan catat perbedaannya (ini adalah 'state B')",
+        "Sekarang minta teman memikirkan salah satu orang tanpa memberitahu - bisakah Anda menebak A atau B?"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa banyak perbedaan sinyal yang bisa Anda amati?"},
+        {"question": "Seberapa akurat tebakan Anda?"}
+      ]
+    },
+    {
+      "id": "ex_02_03",
+      "title": "Pacing & Leading",
+      "description_short": "Praktik mengikuti lalu memimpin",
+      "description": "Praktikkan siklus pacing-leading dalam percakapan nyata. Mulai dengan menyesuaikan diri (pacing), kemudian secara bertahap mulai memimpin (leading).",
+      "steps": [
+        "Masuk ke percakapan dan mulai dengan pacing: samakan ritme bicara, energi, dan bahasa tubuh",
+        "Lakukan pacing selama 3-5 menit sampai rapport terasa kuat",
+        "Secara perlahan, mulai leading: ubah ritme bicara Anda sedikit lebih tenang/cepat",
+        "Perhatikan apakah lawan bicara mengikuti perubahan Anda",
+        "Jika mereka mengikuti, rapport telah terbangun - Anda bisa terus leading",
+        "Jika tidak, kembali ke pacing dan coba lagi nanti"
+      ],
+      "has_audio": true,
+      "assessment_questions": [
+        {"question": "Seberapa mudah Anda melakukan pacing?"},
+        {"question": "Apakah Anda berhasil melakukan leading?"}
+      ]
+    }
+  ]
+}

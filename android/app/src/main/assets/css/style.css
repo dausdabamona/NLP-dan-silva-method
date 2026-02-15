@@ -1,0 +1,557 @@
+/* ============================================
+   NLP Training App - Mobile-First Stylesheet
+   ============================================ */
+
+:root {
+  --primary: #16213e;
+  --primary-light: #1a1a2e;
+  --accent: #e94560;
+  --accent-soft: #ff6b6b;
+  --success: #2ecc71;
+  --warning: #f39c12;
+  --info: #3498db;
+  --bg: #0f0f23;
+  --bg-card: #1a1a2e;
+  --bg-input: #16213e;
+  --text: #e0e0e0;
+  --text-muted: #8892a4;
+  --text-bright: #ffffff;
+  --border: #2a2a4a;
+  --radius: 12px;
+  --shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+  padding-bottom: 70px; /* space for bottom nav */
+}
+
+a {
+  color: var(--info);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Layout ---- */
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* ---- Header ---- */
+.app-header {
+  background: var(--primary);
+  padding: 16px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid var(--border);
+}
+
+.app-header h1 {
+  font-size: 1.2rem;
+  color: var(--text-bright);
+  font-weight: 600;
+}
+
+.app-header .subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ---- Bottom Navigation ---- */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--primary);
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  border-top: 1px solid var(--border);
+  z-index: 100;
+}
+
+.bottom-nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  padding: 4px 12px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.bottom-nav a.active,
+.bottom-nav a:hover {
+  color: var(--accent);
+}
+
+.bottom-nav .nav-icon {
+  font-size: 1.4rem;
+  margin-bottom: 2px;
+}
+
+/* ---- Cards ---- */
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-1px);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-bright);
+}
+
+.card-subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ---- Level Badges ---- */
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.badge-basic {
+  background: rgba(46, 204, 113, 0.2);
+  color: var(--success);
+}
+
+.badge-intermediate {
+  background: rgba(243, 156, 18, 0.2);
+  color: var(--warning);
+}
+
+.badge-advanced {
+  background: rgba(233, 69, 96, 0.2);
+  color: var(--accent);
+}
+
+/* ---- Progress Bar ---- */
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: var(--bg);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--info), var(--success));
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+
+.progress-text {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+  text-align: right;
+}
+
+/* ---- Buttons ---- */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s;
+  width: 100%;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--accent-soft);
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background: var(--bg-input);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.btn-success {
+  background: var(--success);
+  color: white;
+}
+
+.btn-small {
+  padding: 8px 16px;
+  font-size: 0.8rem;
+  width: auto;
+}
+
+.btn:disabled, .btn-locked {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* ---- Forms ---- */
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-input);
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+textarea.form-input {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* ---- Flash Messages ---- */
+.flash {
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  margin-bottom: 12px;
+  font-size: 0.85rem;
+}
+
+.flash-success {
+  background: rgba(46, 204, 113, 0.15);
+  color: var(--success);
+  border: 1px solid rgba(46, 204, 113, 0.3);
+}
+
+.flash-error {
+  background: rgba(233, 69, 96, 0.15);
+  color: var(--accent);
+  border: 1px solid rgba(233, 69, 96, 0.3);
+}
+
+.flash-info {
+  background: rgba(52, 152, 219, 0.15);
+  color: var(--info);
+  border: 1px solid rgba(52, 152, 219, 0.3);
+}
+
+/* ---- Module List ---- */
+.module-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.module-card:hover {
+  text-decoration: none;
+}
+
+.module-card.locked {
+  opacity: 0.5;
+}
+
+.module-card .module-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-right: 12px;
+  min-width: 40px;
+}
+
+.module-card .module-info {
+  flex: 1;
+}
+
+.module-row {
+  display: flex;
+  align-items: center;
+}
+
+/* ---- Exercise Steps ---- */
+.exercise-step {
+  padding: 16px;
+  margin-bottom: 8px;
+  background: var(--bg);
+  border-radius: var(--radius);
+  border-left: 3px solid var(--info);
+}
+
+.exercise-step .step-number {
+  font-size: 0.75rem;
+  color: var(--info);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.exercise-step .step-content {
+  font-size: 0.9rem;
+}
+
+/* ---- Theory Section ---- */
+.theory-section {
+  padding: 16px;
+  background: var(--bg);
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  line-height: 1.8;
+}
+
+.theory-section h3 {
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+/* ---- Stats Grid ---- */
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.stat-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 16px;
+  text-align: center;
+  border: 1px solid var(--border);
+}
+
+.stat-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* ---- Assessment / Rating ---- */
+.rating-group {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.rating-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-btn:hover,
+.rating-btn.selected {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: white;
+}
+
+/* ---- Mood Slider ---- */
+.mood-slider {
+  width: 100%;
+  -webkit-appearance: none;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--bg);
+  outline: none;
+}
+
+.mood-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+}
+
+/* ---- Journal Entry ---- */
+.journal-entry {
+  background: var(--bg);
+  border-radius: var(--radius);
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.journal-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.journal-content {
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+/* ---- Section Headers ---- */
+.section-header {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-bright);
+  margin: 20px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ---- Lock Icon ---- */
+.lock-overlay {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.lock-icon {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+/* ---- Audio Placeholder ---- */
+.audio-placeholder {
+  background: var(--bg);
+  border: 2px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  text-align: center;
+  color: var(--text-muted);
+  margin: 12px 0;
+}
+
+.audio-placeholder .audio-icon {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+/* ---- Exercise List in Module Detail ---- */
+.exercise-list-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background: var(--bg);
+  border-radius: var(--radius);
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.2s;
+}
+
+.exercise-list-item:hover {
+  background: var(--bg-input);
+  text-decoration: none;
+}
+
+.exercise-status {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+.exercise-status.completed {
+  background: var(--success);
+  border-color: var(--success);
+  color: white;
+}
+
+/* ---- Utility ---- */
+.mt-1 { margin-top: 8px; }
+.mt-2 { margin-top: 16px; }
+.mt-3 { margin-top: 24px; }
+.mb-1 { margin-bottom: 8px; }
+.mb-2 { margin-bottom: 16px; }
+.text-center { text-align: center; }
+.text-muted { color: var(--text-muted); }
+.text-small { font-size: 0.8rem; }
+
+/* ---- Responsive ---- */
+@media (min-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

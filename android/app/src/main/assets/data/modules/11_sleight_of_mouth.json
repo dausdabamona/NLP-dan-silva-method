@@ -1,0 +1,85 @@
+{
+  "order": 11,
+  "title": "Sleight of Mouth",
+  "level": "advanced",
+  "description_short": "14 pola reframing lanjutan dari Robert Dilts",
+  "theory": [
+    {
+      "title": "Apa itu Sleight of Mouth?",
+      "content": "Sleight of Mouth adalah 14 pola bahasa yang dikembangkan oleh Robert Dilts berdasarkan observasinya terhadap Richard Bandler. Pola-pola ini dirancang untuk mengubah kepercayaan yang membatasi melalui percakapan. Nama 'Sleight of Mouth' diambil dari 'sleight of hand' (sulap tangan) - mengubah persepsi secara cepat dan elegan."
+    },
+    {
+      "title": "Struktur Kepercayaan",
+      "content": "Kepercayaan memiliki struktur: X berarti Y, atau X menyebabkan Y. Contoh: 'Gagal dalam ujian (X) berarti saya bodoh (Y)'. Sleight of Mouth bekerja dengan mengubah hubungan antara X dan Y, mempertanyakan X atau Y itu sendiri, atau menawarkan perspektif yang sama sekali berbeda."
+    },
+    {
+      "title": "14 Pola Sleight of Mouth",
+      "content": "1) Intention: fokus pada niat positif. 2) Redefine: ubah kata kunci. 3) Consequence: tunjukkan konsekuensi. 4) Chunk Down: lebih spesifik. 5) Chunk Up: lebih umum. 6) Counter Example: berikan pengecualian. 7) Analogy: gunakan metafora. 8) Apply to Self: terapkan ke diri sendiri. 9) Another Outcome: tujuan berbeda. 10) Hierarchy of Criteria: nilai lebih tinggi. 11) Change Frame Size: ubah skala waktu/ruang. 12) Meta Frame: kepercayaan tentang kepercayaan. 13) Model of the World: perspektif orang lain. 14) Reality Strategy: bagaimana Anda tahu itu benar?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_11_01",
+      "title": "Menguasai 7 Pola Pertama",
+      "description_short": "Praktik pola 1-7",
+      "description": "Praktikkan 7 pola Sleight of Mouth pertama terhadap satu kepercayaan yang membatasi.",
+      "steps": [
+        "Pilih satu kepercayaan yang membatasi, misalnya: 'Saya terlalu tua untuk belajar hal baru'",
+        "Intention: 'Apa niat positif di balik kepercayaan itu? Mungkin ingin melindungi dari kekecewaan?'",
+        "Redefine: Ganti 'terlalu tua' dengan 'sangat berpengalaman' - bagaimana maknanya berubah?",
+        "Consequence: 'Jika Anda terus mempercayai ini, apa yang akan Anda lewatkan?'",
+        "Chunk Down: 'Spesifik hal baru apa yang menurut Anda tidak bisa dipelajari?'",
+        "Chunk Up: 'Apakah Anda percaya bahwa manusia pada umumnya bisa terus belajar?'",
+        "Counter Example: 'Pernahkah Anda melihat seseorang yang lebih tua berhasil belajar sesuatu?'",
+        "Analogy: 'Itu seperti mengatakan pohon tua tidak bisa berbunga lagi - padahal justru makin subur'",
+        "Tuliskan semua respons Anda"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa mudah Anda menerapkan 7 pola pertama?"},
+        {"question": "Pola mana yang paling efektif untuk Anda?"}
+      ]
+    },
+    {
+      "id": "ex_11_02",
+      "title": "Menguasai 7 Pola Terakhir",
+      "description_short": "Praktik pola 8-14",
+      "description": "Praktikkan 7 pola Sleight of Mouth terakhir terhadap kepercayaan yang membatasi.",
+      "steps": [
+        "Gunakan kepercayaan yang sama dari latihan sebelumnya",
+        "Apply to Self: 'Apakah Anda terlalu tua untuk mempercayai hal baru tentang diri Anda?'",
+        "Another Outcome: 'Bagaimana jika tujuannya bukan menjadi ahli, tapi menikmati proses belajar?'",
+        "Hierarchy of Criteria: 'Apa yang lebih penting: usia atau semangat belajar?'",
+        "Change Frame Size: 'Dalam skala 50 tahun hidup, apakah mulai belajar sekarang benar-benar terlambat?'",
+        "Meta Frame: 'Menarik bahwa Anda percaya Anda tidak bisa belajar - bukankah kepercayaan itu sendiri sesuatu yang Anda pelajari?'",
+        "Model of the World: 'Apa yang akan dikatakan mentor terhebat Anda tentang kepercayaan ini?'",
+        "Reality Strategy: 'Bagaimana tepatnya Anda tahu bahwa Anda terlalu tua? Bukti konkret apa?'",
+        "Catat semua respons dan identifikasi pola mana yang paling powerful"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa mudah Anda menerapkan 7 pola terakhir?"},
+        {"question": "Pola mana yang paling mengubah kepercayaan Anda?"}
+      ]
+    },
+    {
+      "id": "ex_11_03",
+      "title": "Sleight of Mouth dalam Percakapan",
+      "description_short": "Menggunakan SoM secara spontan",
+      "description": "Praktikkan menggunakan pola Sleight of Mouth secara spontan dalam percakapan nyata (dengan izin, sebagai latihan).",
+      "steps": [
+        "Minta seorang teman untuk menyatakan kepercayaan yang membatasi mereka (dengan izin)",
+        "Tanpa berpikir terlalu lama, respons menggunakan pola SoM yang terasa paling tepat",
+        "Coba minimal 3 pola berbeda terhadap kepercayaan yang sama",
+        "Perhatikan respons teman Anda - pola mana yang paling berdampak?",
+        "Minta feedback dari teman Anda",
+        "Ulangi dengan kepercayaan yang berbeda"
+      ],
+      "has_audio": false,
+      "assessment_questions": [
+        {"question": "Seberapa cepat Anda bisa merespons dengan pola SoM?"},
+        {"question": "Seberapa efektif SoM dalam mengubah kepercayaan orang lain?"}
+      ]
+    }
+  ]
+}
