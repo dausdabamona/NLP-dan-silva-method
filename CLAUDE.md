@@ -57,6 +57,24 @@ NLP-dan-silva-method/
 │   ├── 11_sleight_of_mouth.json # Modul 11: Sleight of Mouth (advanced)
 │   └── 12_deep_trance.json      # Modul 12: Deep Trance Identification (advanced)
 │
+├── android/                     # Android WebView wrapper untuk build APK
+│   ├── build.gradle             # Root build config
+│   ├── settings.gradle          # Project settings
+│   ├── gradle.properties        # Gradle properties
+│   └── app/
+│       ├── build.gradle         # App build config (BASE_URL di sini)
+│       └── src/main/
+│           ├── AndroidManifest.xml
+│           ├── java/.../MainActivity.java  # WebView wrapper
+│           └── res/             # Android resources (layout, styles, icons)
+│
+├── .github/workflows/
+│   └── build-apk.yml           # GitHub Actions: auto-build APK
+│
+├── Procfile                     # Deploy config untuk Render/Railway
+├── render.yaml                  # Render Blueprint config
+├── runtime.txt                  # Python version untuk deploy
+│
 ├── tests/                       # Unit tests (to be added)
 └── migrations/                  # DB migrations (to be added)
 ```
@@ -70,6 +88,8 @@ NLP-dan-silva-method/
 | Run app (production) | `gunicorn app:application` |
 | Access on phone | Open `http://<server-ip>:5000` in mobile browser |
 | Install as PWA | Open in Chrome mobile > "Add to Home Screen" |
+| Build APK (GitHub) | GitHub Actions > "Build APK" > Run workflow |
+| Build APK (local) | `cd android && ./gradlew assembleDebug` |
 
 ## Database Models
 
@@ -138,6 +158,7 @@ Each module JSON in `data/modules/` follows this structure:
 - **PWA** — installable on phone home screen, works offline via service worker
 - **Dark theme** — mobile-friendly, eye-comfortable for extended reading
 - **Module unlock system** — enforces sequential learning, prevents skipping foundational skills
+- **Android APK via WebView** — wraps the web app in a native Android shell, built via GitHub Actions
 
 ## Development Guidelines
 
@@ -157,6 +178,17 @@ Each module JSON in `data/modules/` follows this structure:
 1. Place `.mp3` or `.wav` files in `app/static/audio/`
 2. Set `"has_audio": true` in the exercise JSON
 3. Audio playback UI will need to be implemented in `exercise.html`
+
+### Building APK
+1. Deploy Flask app to Render/Railway first (APK needs a live server URL)
+2. Go to GitHub repo > Actions > "Build APK" > Run workflow
+3. Enter your server URL (e.g., `https://nlp-training.onrender.com`)
+4. Download APK from the workflow artifacts
+5. Install APK on your phone (enable "Install from unknown sources")
+
+### Changing the Server URL in APK
+- Edit `android/app/build.gradle`, change the `BASE_URL` default value
+- Or pass it at build time: `./gradlew assembleDebug -PBASE_URL="https://your-url.com"`
 
 ### Git Workflow
 - Write clear commit messages in English

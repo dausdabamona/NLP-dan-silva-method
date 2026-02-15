@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Brain/Mind icon representing NLP -->
+    <path
+        android:fillColor="#e94560"
+        android:pathData="M54,28 C42,28 32,38 32,50 C32,62 42,72 54,72 C66,72 76,62 76,50 C76,38 66,28 54,28 Z M54,32 C63.9,32 72,40.1 72,50 C72,59.9 63.9,68 54,68 C44.1,68 36,59.9 36,50 C36,40.1 44.1,32 54,32 Z" />
+
+    <path
+        android:fillColor="#e94560"
+        android:pathData="M54,38 L54,62 M44,44 L64,44 M44,56 L64,56 M46,50 L62,50"
+        android:strokeColor="#e94560"
+        android:strokeWidth="2" />
+
+    <!-- N L P letters -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M44,45 L44,55 L46,55 L46,48 L50,55 L52,55 L52,45 L50,45 L50,52 L46,45 Z" />
+
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M54,45 L54,55 L60,55 L60,53 L56,53 L56,45 Z" />
+
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M62,45 L62,55 L64,55 L64,51 L67,51 L67,49 L64,49 L64,47 L68,47 L68,45 Z" />
+
+</vector>
